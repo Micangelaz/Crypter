@@ -1,0 +1,315 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <title>Crypter</title>
+    <link rel="stylesheet" href="../static/style/style_all.css" />
+    <link rel="stylesheet" href="../static/style/home.css" />
+    <link rel="stylesheet" href="../static/style/upload.css" />
+    <link rel="stylesheet" href="../static/style/single.css" />
+    <script src="../src/JS/functions.js"></script>
+    <meta name="viewport" content="width=device-width" />
+</head>
+
+<body>
+    <!-- оболочка для демонстрации -->
+    <div class="wrapper">
+        <!-- контент -->
+        <div class="content">
+            <nav class="header">
+                <div class="container">
+                    <div class="header__row">
+                        <ul class="left__content">
+                            <li class="logo">
+                                <div class="symbol">
+                                    <img src="../static/img/logo.png" alt="logo" />
+                                </div>
+                                <div class="logo__titile">crypter</div>
+                            </li>
+                            <li class="divider"></li>
+                            <li><a href="">Discover</a></li>
+                            <li><a href="">How it work</a></li>
+                        </ul>
+                        <ul class="actions">
+                            <li class="search">
+                                <input type="text" class="search__title" placeholder="Search" />
+                                <div class="search__icon">
+                                    <img src="../static/img/Line.svg" alt="search" />
+                                </div>
+                            </li>
+                            <li class="notification">
+                                <div class="notification__icon">
+                                    <img src="../static/img/notification_icon.svg" alt="notification" />
+                                </div>
+                            </li>
+                            <li class="nav__buttons">
+                                <div><a class="button" id="upload" href="upload.html">Upload</a></div>
+                                <a href="#" class="avatar__frame">
+                                    <div class="avatar__box">
+                                        <img class="icon__img" id="small__avatar__header"
+                                            src="../static/img/austin_wade_avatar.png" alt="avatar" />
+                                    </div>
+                                    <div class="avatar__frame__info">
+                                        <div class="frame__info__count">7.00698</div>
+                                        <div class="frame__info__eth">ETH</div>
+                                    </div>
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </nav>
+            <div class="upload__item">
+                <div class="container">
+                    <div class="upload__item__row">
+                        <div class="item__details">
+                            <div class="item__title__row">
+                                <div class="item__title">Create single collectible</div>
+                                <div class="item__button">
+                                    <a class="button" id="switch" href="#">Switch to Multiple</a>
+                                </div>
+                            </div>
+                            <div class="upload__file__row">
+                                <div class="upload__file__titles">
+                                    <div class="upload__file__main__title">Upload file</div>
+                                    <div class="upload__file__title__text">
+                                        Drag or choose your file to upload
+                                    </div>
+                                </div>
+                                <div class="upload__field">
+                                    <div class="upload__field__details">
+                                        <img src="../static/img/icon__file__upload.svg" alt="file__upload" />
+                                        <a href="#" class="upload__field__text">PNG, GIF, WEBP, MP4 or MP3. Max 1Gb.</a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="details__upload">
+                                <div class="details__upload__title">Item Details</div>
+                                <div class="details__upload__input">
+                                    <div class="input__title">Item name</div>
+                                    <input type="text" placeholder="e. g. “Redeemable Bitcoin Card with logo”" />
+                                </div>
+                                <div class="details__upload__input">
+                                    <div class="input__title">Description</div>
+                                    <input type="text"
+                                        placeholder="e. g. “After purchasing you will able to recived the logo...”" />
+                                </div>
+                                <div class="properties">
+                                    <div class="frame__horizontal__dropdown">
+                                        <div class="dropdown__title">Royalties</div>
+                                        <div class="dropdown">
+                                            <a class="menu__dropdown">
+                                                <span>10%</span>
+                                                <div class="dropdown__arrow">
+                                                    <img src="../static/img/icon__arrow__down.svg" alt="Arrow" />
+                                                </div>
+                                            </a>
+                                            <ul class="dropdown__list">
+                                                <li><a>10%</a></li>
+                                                <li><a>20%</a></li>
+                                                <li><a>30%</a></li>
+                                                <li><a>40%</a></li>
+                                                <li><a>50%</a></li>
+                                                <li><a>60%</a></li>
+                                                <li><a>70%</a></li>
+                                                <li><a>80%</a></li>
+                                                <li><a>90%</a></li>
+                                                <li><a>100%</a></li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                    <div class="details__upload__input">
+                                        <div class="input__title">Size</div>
+                                        <input type="text" placeholder="e. g. Size" />
+                                    </div>
+                                    <div class="details__upload__input">
+                                        <div class="input__title">Propertie</div>
+                                        <input type="text" placeholder="e. g. Propertie" />
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="divider"></div>
+                            <div class="item__settings">
+                                <div class="row__settings__set">
+                                    <div class="titles">
+                                        <div class="main__title">Put on sale</div>
+                                        <div class="title__text">
+                                            You’ll receive bids on this item
+                                        </div>
+                                    </div>
+                                    <div class="switch-btn"></div>
+                                </div>
+                                <div class="row__settings__set">
+                                    <div class="titles">
+                                        <div class="main__title">Instant sale price</div>
+                                        <div class="title__text">
+                                            Enter the price for which the item will be instantly
+                                            sold
+                                        </div>
+                                    </div>
+                                    <div class="switch-btn"></div>
+                                </div>
+                                <div class="row__settings__set">
+                                    <div class="titles">
+                                        <div class="main__title">Unlock once purchased</div>
+                                        <div class="title__text">
+                                            Content will be unlocked after successful transaction
+                                        </div>
+                                    </div>
+                                    <div class="switch-btn"></div>
+                                </div>
+                                <div class="row__settings__set">
+                                    <div class="titles">
+                                        <div class="main__title">Choose collection</div>
+                                        <div class="title__text">
+                                            Choose an exiting collection or create a new one
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="row__settings__colors">
+                                    <div class="color__item">
+                                        <div class="color" id="color__black">
+                                            <img src="../static/img/icon__plus__withoutsq.svg" alt="plus" />
+                                        </div>
+                                        <div class="title">Create collection</div>
+                                    </div>
+                                    <div class="color__item">
+                                        <div class="color" id="color__green"></div>
+                                        <div class="title">Crypto Legend - Professor</div>
+                                    </div>
+                                    <div class="color__item">
+                                        <div class="color" id="color__pink"></div>
+                                        <div class="title">Crypto Legend - Professor</div>
+                                    </div>
+                                    <div class="color__item">
+                                        <div class="color" id="color__purple"></div>
+                                        <div class="title">Legend Photography</div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="details__buttons">
+                                <div class="create__button button">
+                                    <a id="create__item" href="#">Create item</a><img
+                                        src="../static/img/icon__arrow__white__right.svg" alt="arrow__right" />
+                                </div>
+                                <div class="frame__button button">
+                                    <a id="load" href="#">Auto saving</a><img src="../static/img/icon__loading.svg"
+                                        alt="loading" />
+                                </div>
+                            </div>
+                        </div>
+                        <div class="preview__frame">
+                            <div class="preview__title">Preview</div>
+                            <div class="frame__card">
+                                <div class="frame__card__img" id="card__img__preview"></div>
+                                <div class="frame__card__info">
+                                    <div class="card__info__title__price">
+                                        <div class="title__price__text">Black Golden Tiger</div>
+                                        <div class="bid__text">2.45 ETH</div>
+                                    </div>
+                                    <div class="owener__creators">
+                                        <div class="oweners__avatars">
+                                            <div>
+                                                <img class="icon__img" id="owener__avatar1"
+                                                    src="../static/img/austin_wade_avatar.png" alt="avatar" />
+                                            </div>
+                                            <div>
+                                                <img class="icon__img" id="owener__avatar2"
+                                                    src="../static/img/austin_wade_avatar.png" alt="avatar" />
+                                            </div>
+                                            <div>
+                                                <img class="icon__img" id="owener__avatar3"
+                                                    src="../static/img/austin_wade_avatar.png" alt="avatar" />
+                                            </div>
+                                        </div>
+                                        <div class="owener__creators__text">3 in stock</div>
+                                    </div>
+                                    <div class="divider"></div>
+                                    <div class="card__bid">
+                                        <div class="highest__bid">
+                                            <div class="highest__bid__icon">
+                                                <img src="../static/img/icon__condlesticks.png" alt="condlesticks" />
+                                            </div>
+                                            <div class="highest__bid__title">Highest bid</div>
+                                            <div class="highest__bid__eth">0.001 ETH</div>
+                                        </div>
+                                        <div class="new__bid">New bid 🔥</div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="frame__close">
+                                <img src="../static/img/icon__close__circle.svg" alt="close__circle">
+                                <div class="close__text">Clear all</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <footer>
+                <div class="container">
+                    <div class="footer__row">
+                        <div class="footer__content">
+                            <div class="content__logo__info">
+                                <div class="content__logo logo">
+                                    <div class="symbol">
+                                        <img src="../static/img/logo.png" alt="logo" />
+                                    </div>
+                                    <div class="logo__titile">crypter</div>
+                                </div>
+                                <div class="content__logo__text">
+                                    The New Creative <br />Economy.
+                                </div>
+                            </div>
+                            <div class="content__links">
+                                <div class="content__links__title">Crypter.</div>
+                                <div class="content__links__items">
+                                    <div><a href="#" class="link__item">Discover</a></div>
+                                    <div><a href="#" class="link__item">Connect wallet</a></div>
+                                    <div><a href="#" class="link__item">Create item</a></div>
+                                </div>
+                            </div>
+                            <div class="content__links">
+                                <div class="content__links__title">Info</div>
+                                <div class="content__links__items">
+                                    <div><a href="#" class="link__item">Download</a></div>
+                                    <div><a href="#" class="link__item">Demos</a></div>
+                                    <div><a href="#" class="link__item">Support</a></div>
+                                </div>
+                            </div>
+                            <div class="join__email">
+                                <div class="join__email__title">Join Newsletter</div>
+                                <div class="join__email__enter">
+                                    <div class="join__email__enter__title">
+                                        Subscribe our newsletter to get more free design course
+                                        and resource
+                                    </div>
+                                    <div class="join__email__enter__field">
+                                        <input type="text" class="search__footer" placeholder="Enter your email" />
+                                        <div class="search__icon">
+                                            <img src="../static/img/icon__arrow__white__right.svg" alt="search" />
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="divider"></div>
+                        <div class="footer__bottom__bar">
+                            <div class="copyright">
+                                Copyright © 2021 UI8 LLC. All rights reserved
+                            </div>
+                            <div class="cookies">
+                                <div class="cookies__text">
+                                    We use cookies for better service.
+                                </div>
+                                <div><a class="cookies__accept" href="#">Accept</a></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </footer>
+        </div>
+    </div>
+</body>
+
+</html>

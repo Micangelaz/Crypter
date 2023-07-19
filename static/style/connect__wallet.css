@@ -1,0 +1,95 @@
+@import url("https://fonts.googleapis.com/css2?family=DM+Sans:wght@700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=DM+Sans:wght@700&family=Poppins:wght@500;600;700&display=swap");
+.connect__title__row {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 40px;
+  padding: 80px;
+}
+.connect__title__row .title__box {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+}
+.connect__title__row .title__box .title__text {
+  color: var(--neutrals-2, #23262f);
+  font-size: 48px;
+  font-weight: 700;
+  line-height: 56px;
+  letter-spacing: -0.96px;
+}
+.connect__title__row .divider {
+  height: 2px;
+  align-self: stretch;
+  width: 100%;
+}
+
+.connect__content__row {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0px 80px;
+  margin-bottom: 136px;
+}
+.connect__content__row .wallet__list {
+  display: flex;
+  width: 544px;
+  flex-direction: column;
+  align-items: flex-start;
+}
+.connect__content__row .wallet__list .wallet__lable {
+  text-decoration: none;
+  display: flex;
+  padding: 32px;
+  flex-direction: column;
+  align-items: flex-start;
+  align-self: stretch;
+}
+.connect__content__row .wallet__list .wallet__lable .lable__content {
+  display: flex;
+  align-items: center;
+  gap: 32px;
+}
+.connect__content__row .wallet__list .wallet__lable .lable__content .icon__wallet {
+  display: flex;
+  width: 64px;
+  height: 64px;
+  padding: 28px;
+  justify-content: center;
+  align-items: center;
+  border-radius: 64px;
+}
+.connect__content__row .wallet__list .wallet__lable .lable__content #wallet__purple {
+  background: var(--primary-2, #9757d7);
+}
+.connect__content__row .wallet__list .wallet__lable .lable__content #wallet__blue {
+  background: var(--primary-2, #3772ff);
+}
+.connect__content__row .wallet__list .wallet__lable .lable__content #wallet__green {
+  background: var(--primary-2, #45b26b);
+}
+.connect__content__row .wallet__list .wallet__lable .lable__content #wallet__red {
+  background: var(--primary-2, #ef466f);
+}
+.connect__content__row .wallet__list .wallet__lable .lable__content .lable__text {
+  width: 256px;
+  color: var(--neutrals-2, #23262f);
+  font-family: "Poppins", sans-serif;
+  font-size: 24px;
+  font-weight: 600;
+  line-height: 32px;
+}
+.connect__content__row .wallet__img {
+  display: flex;
+  padding-bottom: 0px;
+  flex-direction: column;
+  align-items: center;
+  border-radius: 24px;
+  background: url(../img/picture__connect__wallet.PNG);
+  height: 496px;
+  width: 448px;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}/*# sourceMappingURL=connect__wallet.css.map */

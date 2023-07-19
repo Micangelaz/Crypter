@@ -1,0 +1,1280 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <title>Crypter</title>
+    <link rel="stylesheet" href="../static/style/style_all.css" />
+    <link rel="stylesheet" href="../static/style/home.css" />
+    <meta name="viewport" content="width=device-width" />
+</head>
+
+<body>
+    <!-- оболочка для демонстрации -->
+    <div class="wrapper">
+        <!-- контент -->
+        <div class="content">
+            <nav class="header">
+                <div class="container">
+                    <div class="header__row">
+                        <ul class="left__content">
+                            <li class="logo">
+                                <div class="symbol">
+                                    <img src="../static/img/logo.png" alt="logo" />
+                                </div>
+                                <div class="logo__titile">crypter</div>
+                            </li>
+                            <li class="divider"></li>
+                            <li><a href="">Discover</a></li>
+                            <li><a href="">How it work</a></li>
+                        </ul>
+                        <ul class="actions">
+                            <li class="search">
+                                <input type="text" class="search__title" placeholder="Search" />
+                                <div class="search__icon">
+                                    <img src="../static/img/Line.svg" alt="search" />
+                                </div>
+                            </li>
+                            <li class="notification">
+                                <div class="notification__icon">
+                                    <img src="../static/img/notification_icon.svg" alt="notification" />
+                                </div>
+                            </li>
+                            <li class="nav__buttons">
+                                <div><a class="button" id="upload" href="upload.html">Upload</a></div>
+                                <div>
+                                    <a class="button" id="wallet" href="connect_wallet.html">Connect Wallet</a>
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </nav>
+            <div class="content__block">
+                <div class="container">
+                    <div class="content__block__row">
+                        <div class="start">
+                            <div class="start__content">
+                                <div class="content__text">
+                                    Create, explore, & collect digital art NFTs.
+                                </div>
+                                <div class="content__title">The new creative economy.</div>
+                            </div>
+                            <div>
+                                <a class="button" id="create" href="#">Start your search</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="actions__block">
+                <div class="container">
+                    <div class="actions__block__row">
+                        <div class="video">
+                            <div class="frame__play">
+                                <div class="play">
+                                    <img src="../static/img/play.svg" alt="Play" />
+                                </div>
+                                <div class="frame__proig">
+                                    <div class="frame__proig__now"></div>
+                                </div>
+                                <div class="time">2:20</div>
+                                <div class="volum">
+                                    <img src="../static/img/volum.svg" alt="volum" />
+                                </div>
+                                <div class="full__screen">
+                                    <img src="../static/img/full_screen.svg" alt="full__screen" />
+                                </div>
+                            </div>
+                        </div>
+                        <div class="actions__content">
+                            <div class="actions__content__title">
+                                <div class="actions__content__title__text">
+                                    the creator network®
+                                </div>
+                                <div class="creator__price">
+                                    <div class="actions__creator">
+                                        <div class="actions__avatar"></div>
+                                        <div class="actions__frame">
+                                            <div class="actions__frame__title">Creator</div>
+                                            <div class="actions__frame__content">Enrico Cole</div>
+                                        </div>
+                                    </div>
+                                    <div class="actions__price">
+                                        <div class="actions__avatar" id="avatar2">
+                                            <img src="../static/img/avatar2__home.svg" alt="#" />
+                                        </div>
+                                        <div class="actions__frame">
+                                            <div class="actions__frame__title">Instant price</div>
+                                            <div class="actions__frame__content">3.5 ETH</div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="bid__time">
+                                <div class="current__bid__frame">
+                                    <div class="bid__frame__title">Current Bid</div>
+                                    <div class="bid__frame__eth">1.00 ETH</div>
+                                    <div class="bid__frame__money">$3,618.36</div>
+                                </div>
+                                <div class="ending__time__frame">
+                                    <div class="ending__time_title">Auction ending in</div>
+                                    <div class="ending__time__items">
+                                        <div class="ending__time__item">
+                                            <div class="item__number">19</div>
+                                            <div class="item__name">Hrs</div>
+                                        </div>
+                                        <div class="ending__time__item">
+                                            <div class="item__number">24</div>
+                                            <div class="item__name">mins</div>
+                                        </div>
+                                        <div class="ending__time__item">
+                                            <div class="item__number">19</div>
+                                            <div class="item__name">secs</div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="actions__buttons">
+                                <div>
+                                    <a class="button" id="place__bid" href="#">Place a bid</a>
+                                </div>
+                                <div>
+                                    <a class="button" id="view__item" href="#">View item</a>
+                                </div>
+                            </div>
+                            <div class="actions__arrows">
+                                <div class="actions__arrows__left">
+                                    <img src="../static/img/left__arrow.svg" alt="left__arrow" />
+                                </div>
+                                <div class="actions__arrows__right">
+                                    <img src="../static/img/right__arrow.svg" alt="right__arrow" />
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="feed__01">
+                <div class="container">
+                    <div class="feed__01__row">
+                        <div class="featured__item">
+                            <div class="featured__item__img"></div>
+                            <div class="fetured__item__info">
+                                <div class="avatar__name">
+                                    <div class="avatar__icon"></div>
+                                    <div class="item__name">
+                                        <div class="item__name__title">The future of ETH®</div>
+                                        <div class="item__name__text">18 in stock</div>
+                                    </div>
+                                </div>
+                                <div class="avatar__bid">
+                                    <div class="bid__title">Highest bid</div>
+                                    <div class="bid__text">1.125 ETH</div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="item__list">
+                            <div class="small__item">
+                                <div class="small__item__icon" id="small__icon__1"></div>
+                                <div class="small__item__content">
+                                    <div class="small__item__title">
+                                        <div class="small__item__title__text">ETH never die</div>
+                                        <div class="small__item__title__icon">
+                                            <div>
+                                                <img class="icon__img" id="small__avatar1"
+                                                    src="../static/img/austin_wade_avatar.png" alt="avatar" />
+                                            </div>
+                                            <div class="bid__text">0.27 ETH</div>
+                                            <div class="icon_rating">1 of 12</div>
+                                        </div>
+                                    </div>
+                                    <div>
+                                        <a class="button place__bid__item" href="#">Place a bid</a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="small__item">
+                                <div class="small__item__icon" id="small__icon__2"></div>
+                                <div class="small__item__content">
+                                    <div class="small__item__title">
+                                        <div class="small__item__title__text">
+                                            Future coming soon
+                                        </div>
+                                        <div class="small__item__title__icon">
+                                            <div>
+                                                <img class="icon__img" id="small__avatar2"
+                                                    src="../static/img/austin_wade_avatar.png" alt="avatar" />
+                                            </div>
+                                            <div class="bid__text">0.27 ETH</div>
+                                            <div class="icon_rating">1 of 3</div>
+                                        </div>
+                                    </div>
+                                    <div>
+                                        <a class="button place__bid__item" href="#">Place a bid</a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="small__item">
+                                <div class="small__item__icon" id="small__icon__3"></div>
+                                <div class="small__item__content">
+                                    <div class="small__item__title">
+                                        <div class="small__item__title__text">
+                                            Elon Musk silver coin <br />
+                                            3d print
+                                        </div>
+                                        <div class="small__item__title__icon">
+                                            <div>
+                                                <img class="icon__img" id="small__avatar3"
+                                                    src="../static/img/austin_wade_avatar.png" alt="avatar" />
+                                            </div>
+                                            <div class="bid__text">0.27 ETH</div>
+                                            <div class="icon_rating">1 of 4</div>
+                                        </div>
+                                    </div>
+                                    <div>
+                                        <a class="button place__bid__item" href="#">Place a bid</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="divider"></div>
+                        <div class="feed01__creators">
+                            <div class="creators_title">Latest upload from creators 🔥</div>
+                            <div class="creators__frame">
+                                <div class="creator">
+                                    <div class="creator_user">
+                                        <div class="number__user">5</div>
+                                        <div>
+                                            <img id="creator__avatar1" class="icon__img"
+                                                src="../static/img/austin_wade_avatar.png" alt="avatar" />
+                                        </div>
+                                        <div class="creator__info">
+                                            <div class="creator__info__title">Payton Harris</div>
+                                            <div class="creator__info__text">
+                                                <div class="number">2.456</div>
+                                                <div class="eth">ETH</div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="divider"></div>
+                                </div>
+                                <div class="creator">
+                                    <div class="creator_user">
+                                        <div class="number__user">2</div>
+                                        <div>
+                                            <img id="creator__avatar2" class="icon__img"
+                                                src="../static/img/pexels__gabby__avatar.png" alt="avatar" />
+                                        </div>
+                                        <div class="creator__info">
+                                            <div class="creator__info__title">Anita Bins</div>
+                                            <div class="creator__info__text">
+                                                <div class="number">2.456</div>
+                                                <div class="eth">ETH</div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="divider"></div>
+                                </div>
+                                <div class="creator">
+                                    <div class="creator_user">
+                                        <div class="number__user">3</div>
+                                        <div>
+                                            <img id="creator__avatar3" class="icon__img"
+                                                src="../static/img/austin_wade_avatar.png" alt="avatar" />
+                                        </div>
+                                        <div class="creator__info">
+                                            <div class="creator__info__title">Joana Wuckert</div>
+                                            <div class="creator__info__text">
+                                                <div class="number">2.456</div>
+                                                <div class="eth">ETH</div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="divider"></div>
+                                </div>
+                                <div class="creator">
+                                    <div class="creator_user">
+                                        <div class="number__user">4</div>
+                                        <div>
+                                            <img id="creator__avatar4" class="icon__img"
+                                                src="../static/img/austin_wade_avatar.png" alt="avatar" />
+                                        </div>
+                                        <div class="creator__info">
+                                            <div class="creator__info__title">Lorena Ledner</div>
+                                            <div class="creator__info__text">
+                                                <div class="number">2.456</div>
+                                                <div class="eth">ETH</div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div>
+                                        <a class="button btn__arrow" href="#">
+                                            <div>Discover more</div>
+                                            <div class="btn__arrow__img">
+                                                <img src="../static/img/right__arrow.svg" alt="right__arrow" />
+                                            </div>
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="top__creators">
+                <div class="container">
+                    <div class="top__creators__row">
+                        <div class="filter">
+                            <div class="filter__left">
+                                <div class="filter__left__title">Popular</div>
+                                <div class="filter__left__text">
+                                    <div class="filter__left__name">Sellers</div>
+                                    <div class="arrow__down">
+                                        <img src="../static/img/down__arrow.svg" alt="down__arrow" />
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="filter__right">
+                                <div class="filter__right__text">Today</div>
+                                <div class="arrow__down">
+                                    <img src="../static/img/down__arrow__gray.svg" alt="" />
+                                </div>
+                            </div>
+                        </div>
+                        <div class="top__creators__items">
+                            <div class="actions__arrows__left">
+                                <img src="../static/img/left__arrow.svg" alt="left__arrow" />
+                            </div>
+                            <div class="creators__frame">
+                                <div class="creator__box">
+                                    <div class="creator__box__title">
+                                        <div class="creator__box__title__badge" id="badge1">
+                                            <div class="badge__icon">
+                                                <img src="../static/img/icon__cup.svg" alt="cup" />
+                                            </div>
+                                            <div class="badge__text">#1</div>
+                                        </div>
+                                        <div class="creator__box__title__icons">
+                                            <img src="../static/img/icon__plus__square.png" alt="icon__plus__square" />
+                                            <img src="../static/img/icon__arrow__expand.svg"
+                                                alt="icon__arrow__expand" />
+                                        </div>
+                                    </div>
+                                    <div class="divider"></div>
+                                    <div class="creator__box__user">
+                                        <div>
+                                            <img id="creator__avatar5" class="icon__img"
+                                                src="../static/img/austin_wade_avatar.png" alt="avatar" />
+                                        </div>
+                                        <div class="verifed__back">
+                                            <img src="../static/img/polygon2.svg" alt="polygon" />
+                                        </div>
+                                        <div class="verifed__icon">
+                                            <img src="../static/img/icon__sketch.svg" alt="icon__sketch" />
+                                        </div>
+                                        <div class="box__user__info">
+                                            <div class="box__user__name">Edd Harris</div>
+                                            <div class="creator__info__text">
+                                                <div class="number">2.456</div>
+                                                <div class="eth">ETH</div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="creator__box">
+                                    <div class="creator__box__title">
+                                        <div class="creator__box__title__badge" id="badge2">
+                                            <div class="badge__icon">
+                                                <img src="../static/img/icon__donut.svg" alt="donut" />
+                                            </div>
+                                            <div class="badge__text">#2</div>
+                                        </div>
+                                        <div class="creator__box__title__icons">
+                                            <img src="../static/img/icon__plus__square.png" alt="icon__plus__square" />
+                                            <img src="../static/img/icon__arrow__expand.svg"
+                                                alt="icon__arrow__expand" />
+                                        </div>
+                                    </div>
+                                    <div class="divider"></div>
+                                    <div class="creator__box__user">
+                                        <div>
+                                            <img id="creator__avatar6" class="icon__img"
+                                                src="../static/img/nadezhda_avatar.png" alt="avatar" />
+                                        </div>
+                                        <div class="verifed__back">
+                                            <img src="../static/img/polygon2.svg" alt="polygon" />
+                                        </div>
+                                        <div class="verifed__icon">
+                                            <img src="../static/img/icon__sketch.svg" alt="icon__sketch" />
+                                        </div>
+                                        <div class="box__user__info">
+                                            <div class="box__user__name">Odell Hane</div>
+                                            <div class="creator__info__text">
+                                                <div class="number">2.456</div>
+                                                <div class="eth">ETH</div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="creator__box">
+                                    <div class="creator__box__title">
+                                        <div class="creator__box__title__badge" id="badge3">
+                                            <div class="badge__icon">
+                                                <img src="../static/img/icon__lightning.svg" alt="lightning" />
+                                            </div>
+                                            <div class="badge__text">#3</div>
+                                        </div>
+                                        <div class="creator__box__title__icons">
+                                            <img src="../static/img/icon__plus__square.png" alt="icon__plus__square" />
+                                            <img src="../static/img/icon__arrow__expand.svg"
+                                                alt="icon__arrow__expand" />
+                                        </div>
+                                    </div>
+                                    <div class="divider"></div>
+                                    <div class="creator__box__user">
+                                        <div>
+                                            <img id="creator__avatar7" class="icon__img"
+                                                src="../static/img/philip__avatar.png" alt="avatar" />
+                                        </div>
+                                        <div class="verifed__back">
+                                            <img src="../static/img/polygon2.svg" alt="polygon" />
+                                        </div>
+                                        <div class="verifed__icon">
+                                            <img src="../static/img/icon__sketch.svg" alt="icon__sketch" />
+                                        </div>
+                                        <div class="box__user__info">
+                                            <div class="box__user__name">Marlee Kuphal</div>
+                                            <div class="creator__info__text">
+                                                <div class="number">2.456</div>
+                                                <div class="eth">ETH</div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="creator__box">
+                                    <div class="creator__box__title">
+                                        <div class="creator__box__title__badge" id="badge4">
+                                            <div class="badge__icon">
+                                                <img src="../static/img/icon__doughnut.png" alt="doughnut" />
+                                            </div>
+                                            <div class="badge__text">#4</div>
+                                        </div>
+                                        <div class="creator__box__title__icons">
+                                            <img src="../static/img/icon__plus__square.png" alt="icon__plus__square" />
+                                            <img src="../static/img/icon__arrow__expand.svg"
+                                                alt="icon__arrow__expand" />
+                                        </div>
+                                    </div>
+                                    <div class="divider"></div>
+                                    <div class="creator__box__user">
+                                        <div>
+                                            <img id="creator__avatar7" class="icon__img"
+                                                src="../static/img/gabb__avatar.png" alt="avatar" />
+                                        </div>
+                                        <div class="verifed__back">
+                                            <img src="../static/img/polygon2.svg" alt="polygon" />
+                                        </div>
+                                        <div class="verifed__icon">
+                                            <img src="../static/img/icon__sketch.svg" alt="icon__sketch" />
+                                        </div>
+                                        <div class="box__user__info">
+                                            <div class="box__user__name">Payton Kunde</div>
+                                            <div class="creator__info__text">
+                                                <div class="number">2.456</div>
+                                                <div class="eth">ETH</div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="creator__box">
+                                    <div class="creator__box__title">
+                                        <div class="creator__box__title__badge" id="badge5">
+                                            <div class="badge__icon">
+                                                <img src="../static/img/icon__doughnut.png" alt="doughnut" />
+                                            </div>
+                                            <div class="badge__text">#5</div>
+                                        </div>
+                                        <div class="creator__box__title__icons">
+                                            <img src="../static/img/icon__plus__square.png" alt="icon__plus__square" />
+                                            <img src="../static/img/icon__arrow__expand.svg"
+                                                alt="icon__arrow__expand" />
+                                        </div>
+                                    </div>
+                                    <div class="divider"></div>
+                                    <div class="creator__box__user">
+                                        <div>
+                                            <img id="creator__avatar7" class="icon__img"
+                                                src="../static/img/daria__avatar.png" alt="avatar" />
+                                        </div>
+                                        <div class="verifed__back">
+                                            <img src="../static/img/polygon2.svg" alt="polygon" />
+                                        </div>
+                                        <div class="verifed__icon">
+                                            <img src="../static/img/icon__sketch.svg" alt="icon__sketch" />
+                                        </div>
+                                        <div class="box__user__info">
+                                            <div class="box__user__name">Payton Buckridge</div>
+                                            <div class="creator__info__text">
+                                                <div class="number">2.456</div>
+                                                <div class="eth">ETH</div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="actions__arrows__right">
+                                <img src="../static/img/right__arrow.svg" alt="right__arrow" />
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="hot__bid">
+                <div class="container">
+                    <div class="hot__bid__row">
+                        <div class="hot__bid__title">
+                            <div class="hot__bid__title__text">Hot bid</div>
+                            <div class="hot__bid__title__arrows">
+                                <div class="actions__arrows__left">
+                                    <img src="../static/img/left__arrow.svg" alt="left__arrow" />
+                                </div>
+                                <div class="actions__arrows__right">
+                                    <img src="../static/img/right__arrow.svg" alt="right__arrow" />
+                                </div>
+                            </div>
+                        </div>
+                        <div class="hot__bid__frame">
+                            <div class="frame__card">
+                                <div class="frame__card__img" id="card__img1">
+                                </div>
+                                <div class="frame__card__info">
+                                    <div class="card__info__title__price">
+                                        <div class="title__price__text">Amazing digital art</div>
+                                        <div class="bid__text">2.45 ETH</div>
+                                    </div>
+                                    <div class="owener__creators">
+                                        <div class="oweners__avatars">
+                                            <div>
+                                                <img class="icon__img" id="owener__avatar1"
+                                                    src="../static/img/austin_wade_avatar.png" alt="avatar" />
+                                            </div>
+                                            <div>
+                                                <img class="icon__img" id="owener__avatar2"
+                                                    src="../static/img/austin_wade_avatar.png" alt="avatar" />
+                                            </div>
+                                            <div>
+                                                <img class="icon__img" id="owener__avatar3"
+                                                    src="../static/img/austin_wade_avatar.png" alt="avatar" />
+                                            </div>
+                                        </div>
+                                        <div class="owener__creators__text">3 in stock</div>
+                                    </div>
+                                    <div class="divider"></div>
+                                    <div class="card__bid">
+                                        <div class="highest__bid">
+                                            <div class="highest__bid__icon"><img
+                                                    src="../static/img/icon__condlesticks.png" alt="condlesticks"></div>
+                                            <div class="highest__bid__title">Highest bid</div>
+                                            <div class="highest__bid__eth">0.001 ETH</div>
+                                        </div>
+                                        <div class="new__bid">New bid 🔥</div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="frame__card">
+                                <div class="frame__card__img" id="card__img2">
+                                </div>
+                                <div class="frame__card__info">
+                                    <div class="card__info__title__price">
+                                        <div class="title__price__text">Amazing digital art</div>
+                                        <div class="bid__text">2.45 ETH</div>
+                                    </div>
+                                    <div class="owener__creators">
+                                        <div class="oweners__avatars">
+                                            <div>
+                                                <img class="icon__img" id="owener__avatar1"
+                                                    src="../static/img/austin_wade_avatar.png" alt="avatar" />
+                                            </div>
+                                            <div>
+                                                <img class="icon__img" id="owener__avatar2"
+                                                    src="../static/img/austin_wade_avatar.png" alt="avatar" />
+                                            </div>
+                                            <div>
+                                                <img class="icon__img" id="owener__avatar3"
+                                                    src="../static/img/austin_wade_avatar.png" alt="avatar" />
+                                            </div>
+                                        </div>
+                                        <div class="owener__creators__text">3 in stock</div>
+                                    </div>
+                                    <div class="divider"></div>
+                                    <div class="card__bid">
+                                        <div class="highest__bid">
+                                            <div class="highest__bid__icon"><img
+                                                    src="../static/img/icon__condlesticks.png" alt="condlesticks"></div>
+                                            <div class="highest__bid__title">Highest bid</div>
+                                            <div class="highest__bid__eth">0.001 ETH</div>
+                                        </div>
+                                        <div class="new__bid">New bid 🔥</div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="frame__card">
+                                <div class="frame__card__img" id="card__img3">
+                                </div>
+                                <div class="frame__card__info">
+                                    <div class="card__info__title__price">
+                                        <div class="title__price__text">Amazing digital art</div>
+                                        <div class="bid__text">2.45 ETH</div>
+                                    </div>
+                                    <div class="owener__creators">
+                                        <div class="oweners__avatars">
+                                            <div>
+                                                <img class="icon__img" id="owener__avatar1"
+                                                    src="../static/img/austin_wade_avatar.png" alt="avatar" />
+                                            </div>
+                                            <div>
+                                                <img class="icon__img" id="owener__avatar2"
+                                                    src="../static/img/austin_wade_avatar.png" alt="avatar" />
+                                            </div>
+                                            <div>
+                                                <img class="icon__img" id="owener__avatar3"
+                                                    src="../static/img/austin_wade_avatar.png" alt="avatar" />
+                                            </div>
+                                        </div>
+                                        <div class="owener__creators__text">3 in stock</div>
+                                    </div>
+                                    <div class="divider"></div>
+                                    <div class="card__bid">
+                                        <div class="highest__bid">
+                                            <div class="highest__bid__icon"><img
+                                                    src="../static/img/icon__condlesticks.png" alt="condlesticks"></div>
+                                            <div class="highest__bid__title">Highest bid</div>
+                                            <div class="highest__bid__eth">0.001 ETH</div>
+                                        </div>
+                                        <div class="new__bid">New bid 🔥</div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="frame__card">
+                                <div class="frame__card__img" id="card__img4">
+                                    <!-- <img id="card__img4" src="../static/img/small__item3__feed01.png" alt="card__img" /> -->
+                                </div>
+                                <div class="frame__card__info">
+                                    <div class="card__info__title__price">
+                                        <div class="title__price__text">Amazing digital art</div>
+                                        <div class="bid__text">2.45 ETH</div>
+                                    </div>
+                                    <div class="owener__creators">
+                                        <div class="oweners__avatars">
+                                            <div>
+                                                <img class="icon__img" id="owener__avatar1"
+                                                    src="../static/img/austin_wade_avatar.png" alt="avatar" />
+                                            </div>
+                                            <div>
+                                                <img class="icon__img" id="owener__avatar2"
+                                                    src="../static/img/austin_wade_avatar.png" alt="avatar" />
+                                            </div>
+                                            <div>
+                                                <img class="icon__img" id="owener__avatar3"
+                                                    src="../static/img/austin_wade_avatar.png" alt="avatar" />
+                                            </div>
+                                        </div>
+                                        <div class="owener__creators__text">3 in stock</div>
+                                    </div>
+                                    <div class="divider"></div>
+                                    <div class="card__bid">
+                                        <div class="highest__bid">
+                                            <div class="highest__bid__icon"><img
+                                                    src="../static/img/icon__condlesticks.png" alt="condlesticks"></div>
+                                            <div class="highest__bid__title">Highest bid</div>
+                                            <div class="highest__bid__eth">0.001 ETH</div>
+                                        </div>
+                                        <div class="new__bid">New bid 🔥</div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="hot__bid hot__collections">
+                <div class="container">
+                    <div class="hot__bid__row hot__collections__row">
+                        <div class="hot__bid__title">
+                            <div class="hot__bid__title__text">Hot collections</div>
+                        </div>
+                        <div class="hot__collections__frame">
+                            <div class="collection">
+                                <div class="images__stack">
+                                    <div class="main__image"><img src="../static/img/picture__feed01__featured.png"
+                                            alt="main__pic"></div>
+                                    <div class="other__images">
+                                        <div class="other__image"><img src="../static/img/picture__man__in__room.png"
+                                                alt="man__in__room"></div>
+                                        <div class="other__image"><img src="../static/img/picture__girl__orange.png"
+                                                alt="girl__orange"></div>
+                                        <div class="other__image"><img src="../static/img/picture__arm__pink.png"
+                                                alt="arm__pink"></div>
+                                    </div>
+                                </div>
+                                <div class="collection__info">
+                                    <div class="collection__info__title">Awesome collection</div>
+                                    <div class="collextion__info__frame">
+                                        <div class="info__frame__avatar">
+                                            <div>
+                                                <img class="icon__img" id="owener__avatar3"
+                                                    src="../static/img/austin_wade_avatar.png" alt="avatar" />
+                                            </div>
+                                            <div class="info__frame__avatar__text">By Kennith Olson</div>
+                                        </div>
+                                        <div class="bid__text">28 ITEMS</div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="collection">
+                                <div class="images__stack">
+                                    <div class="main__image"><img src="../static/img/small__item3__feed01.png"
+                                            alt="main__pic"></div>
+                                    <div class="other__images">
+                                        <div class="other__image"><img src="../static/img/picture__hallway__pink.png"
+                                                alt="hallway__pink"></div>
+                                        <div class="other__image"><img src="../static/img/picture__som__black.png"
+                                                alt="som__black"></div>
+                                        <div class="other__image"><img src="../static/img/picture__water__pink.png"
+                                                alt="water__pink"></div>
+                                    </div>
+                                </div>
+                                <div class="collection__info">
+                                    <div class="collection__info__title">Awesome collection</div>
+                                    <div class="collextion__info__frame">
+                                        <div class="info__frame__avatar">
+                                            <div>
+                                                <img class="icon__img" id="owener__avatar3"
+                                                    src="../static/img/austin_wade_avatar.png" alt="avatar" />
+                                            </div>
+                                            <div class="info__frame__avatar__text">By Willie Barton</div>
+                                        </div>
+                                        <div class="bid__text">28 ITEMS</div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="collection">
+                                <div class="images__stack">
+                                    <div class="main__image"><img src="../static/img/actions_video.png"
+                                            alt="actions_video"></div>
+                                    <div class="other__images">
+                                        <div class="other__image"><img src="../static/img/picture__som__blue.png"
+                                                alt="som__blue"></div>
+                                        <div class="other__image"><img
+                                                src="../static/img/picture__man__face__orange.png"
+                                                alt="man__face__orange"></div>
+                                        <div class="other__image"><img src="../static/img/picture__dog__orange.png"
+                                                alt="dog__orange"></div>
+                                    </div>
+                                </div>
+                                <div class="collection__info">
+                                    <div class="collection__info__title">Awesome collection</div>
+                                    <div class="collextion__info__frame">
+                                        <div class="info__frame__avatar">
+                                            <div>
+                                                <img class="icon__img" id="owener__avatar3"
+                                                    src="../static/img/austin_wade_avatar.png" alt="avatar" />
+                                            </div>
+                                            <div class="info__frame__avatar__text">By Halle Jakubowski</div>
+                                        </div>
+                                        <div class="bid__text">28 ITEMS</div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="hot__bid discover">
+                <div class="container">
+                    <div class="hot__bid__row discover__row">
+                        <div class="hot__bid__title">
+                            <div class="hot__bid__title__text">Discover</div>
+                        </div>
+                        <div class="discover__frame">
+                            <div class="frame__horizontal__filters">
+                                <div class="frame__horizontal__filter__first">
+                                    <div class="dropdown">
+                                        <a id="added__title" class="menu__dropdown">
+                                            <span>Recently added</span>
+                                            <div class="dropdown__arrow"><img src="../static/img/icon__arrow__down.svg" alt="Arrow"></div>
+                                        </a>
+                                        <ul id="added" class="dropdown__list">
+                                                <li><a id="English__header">Lorem ipsum dolor</a></li>
+                                                <li><a id="Ukraine__header">Lorem ipsum dolor</a></li>
+                                                <li><a id="Russian__header">Lorem ipsum dolor</a></li>
+                                        </ul>
+                                    </div>
+                                    <ul class="frame__horizontal__filter__menu">
+                                        <li><a id="selected" class="filter__menu__item" href="#">All items</a></li>
+                                        <li><a class="filter__menu__item" href="#">Art</a></li>
+                                        <li><a class="filter__menu__item" href="#">Game</a></li>
+                                        <li><a class="filter__menu__item" href="#">Photography</a></li>
+                                        <li><a class="filter__menu__item" href="#">Music</a></li>
+                                        <li><a class="filter__menu__item" href="#">Video</a></li>
+                                    </ul>
+                                    <div class="filter__button button"><a id="filter" href="#">Filter</a><img src="../static/img/icon__close.svg" alt="close"></div>
+                                </div>
+                                <div class="frame__horizontal__filters__group">
+                                    <div class="frame__horizontal__dropdown">
+                                        <div class="dropdown__title">Price</div>
+                                        <div class="dropdown">
+                                            <a class="menu__dropdown">
+                                                <span>Highest price</span>
+                                                <div class="dropdown__arrow"><img src="../static/img/icon__arrow__down.svg" alt="Arrow"></div>
+                                            </a>
+                                            <ul class="dropdown__list">
+                                                    <li><a id="English__header">Lorem ipsum dolor</a></li>
+                                                    <li><a id="Ukraine__header">Lorem ipsum dolor</a></li>
+                                                    <li><a id="Russian__header">Lorem ipsum dolor</a></li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                    <div class="frame__horizontal__dropdown">
+                                        <div class="dropdown__title">likes</div>
+                                        <div class="dropdown">
+                                            <a class="menu__dropdown">
+                                                <span>Most liked</span>
+                                                <div class="dropdown__arrow"><img src="../static/img/icon__arrow__down.svg" alt="Arrow"></div>
+                                            </a>
+                                            <ul class="dropdown__list">
+                                                    <li><a id="English__header">Lorem ipsum dolor</a></li>
+                                                    <li><a id="Ukraine__header">Lorem ipsum dolor</a></li>
+                                                    <li><a id="Russian__header">Lorem ipsum dolor</a></li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                    <div class="frame__horizontal__dropdown">
+                                        <div class="dropdown__title">Creator</div>
+                                        <div class="dropdown">
+                                            <a class="menu__dropdown">
+                                                <span>Verified only</span>
+                                                <div class="dropdown__arrow"><img src="../static/img/icon__arrow__down.svg" alt="Arrow"></div>
+                                            </a>
+                                            <ul class="dropdown__list">
+                                                    <li><a id="English__header">Lorem ipsum dolor</a></li>
+                                                    <li><a id="Ukraine__header">Lorem ipsum dolor</a></li>
+                                                    <li><a id="Russian__header">Lorem ipsum dolor</a></li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                    <div class="frame__horizontal__range">
+                                        <div class="dropdown__title">Price range</div>
+                                        <div class="range__bar">
+                                            <img src="../static/img/icon__base__scroll.svg" alt="base__scroll">
+                                            <img id="blue__scroll" src="../static/img/icon__blue__scroll.svg" alt="blue__scroll">
+                                            <span class="scroll__button"></span>
+                                            <div class="scroll__frame">5 ETH</div>
+                                            <img id="scroll__part" src="../static/img/icon__scroll__part.svg" alt="scroll__part">
+                                        </div>
+                                        <div class="range__values">
+                                            <div class="value__down">0.01 ETH</div>
+                                            <div class="value__up">10 ETH</div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="frame__row">
+                                    <div class="frame__card">
+                                        <div class="frame__card__img" id="card__img5">
+                                        </div>
+                                        <div class="frame__card__info">
+                                            <div class="card__info__title__price">
+                                                <div class="title__price__text">Amazing digital art</div>
+                                                <div class="bid__text">2.45 ETH</div>
+                                            </div>
+                                            <div class="owener__creators">
+                                                <div class="oweners__avatars">
+                                                    <div>
+                                                        <img class="icon__img" id="owener__avatar1"
+                                                            src="../static/img/austin_wade_avatar.png" alt="avatar" />
+                                                    </div>
+                                                    <div>
+                                                        <img class="icon__img" id="owener__avatar2"
+                                                            src="../static/img/austin_wade_avatar.png" alt="avatar" />
+                                                    </div>
+                                                    <div>
+                                                        <img class="icon__img" id="owener__avatar3"
+                                                            src="../static/img/austin_wade_avatar.png" alt="avatar" />
+                                                    </div>
+                                                </div>
+                                                <div class="owener__creators__text">3 in stock</div>
+                                            </div>
+                                            <div class="divider"></div>
+                                            <div class="card__bid">
+                                                <div class="highest__bid">
+                                                    <div class="highest__bid__icon"><img
+                                                            src="../static/img/icon__condlesticks.png" alt="condlesticks"></div>
+                                                    <div class="highest__bid__title">Highest bid</div>
+                                                    <div class="highest__bid__eth">0.001 ETH</div>
+                                                </div>
+                                                <div class="new__bid">New bid 🔥</div>
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                    <div class="frame__card">
+                                        <div class="frame__card__img" id="card__img6">
+                                        </div>
+                                        <div class="frame__card__info">
+                                            <div class="card__info__title__price">
+                                                <div class="title__price__text">Amazing digital art</div>
+                                                <div class="bid__text">2.45 ETH</div>
+                                            </div>
+                                            <div class="owener__creators">
+                                                <div class="oweners__avatars">
+                                                    <div>
+                                                        <img class="icon__img" id="owener__avatar1"
+                                                            src="../static/img/austin_wade_avatar.png" alt="avatar" />
+                                                    </div>
+                                                    <div>
+                                                        <img class="icon__img" id="owener__avatar2"
+                                                            src="../static/img/austin_wade_avatar.png" alt="avatar" />
+                                                    </div>
+                                                    <div>
+                                                        <img class="icon__img" id="owener__avatar3"
+                                                            src="../static/img/austin_wade_avatar.png" alt="avatar" />
+                                                    </div>
+                                                </div>
+                                                <div class="owener__creators__text">3 in stock</div>
+                                            </div>
+                                            <div class="divider"></div>
+                                            <div class="card__bid">
+                                                <div class="highest__bid">
+                                                    <div class="highest__bid__icon"><img
+                                                            src="../static/img/icon__condlesticks.png" alt="condlesticks"></div>
+                                                    <div class="highest__bid__title">Highest bid</div>
+                                                    <div class="highest__bid__eth">0.001 ETH</div>
+                                                </div>
+                                                <div class="new__bid">New bid 🔥</div>
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                    <div class="frame__card">
+                                        <div class="frame__card__img" id="card__img3">
+                                        </div>
+                                        <div class="frame__card__info">
+                                            <div class="card__info__title__price">
+                                                <div class="title__price__text">Amazing digital art</div>
+                                                <div class="bid__text">2.45 ETH</div>
+                                            </div>
+                                            <div class="owener__creators">
+                                                <div class="oweners__avatars">
+                                                    <div>
+                                                        <img class="icon__img" id="owener__avatar1"
+                                                            src="../static/img/austin_wade_avatar.png" alt="avatar" />
+                                                    </div>
+                                                    <div>
+                                                        <img class="icon__img" id="owener__avatar2"
+                                                            src="../static/img/austin_wade_avatar.png" alt="avatar" />
+                                                    </div>
+                                                    <div>
+                                                        <img class="icon__img" id="owener__avatar3"
+                                                            src="../static/img/austin_wade_avatar.png" alt="avatar" />
+                                                    </div>
+                                                </div>
+                                                <div class="owener__creators__text">3 in stock</div>
+                                            </div>
+                                            <div class="divider"></div>
+                                            <div class="card__bid">
+                                                <div class="highest__bid">
+                                                    <div class="highest__bid__icon"><img
+                                                            src="../static/img/icon__condlesticks.png" alt="condlesticks"></div>
+                                                    <div class="highest__bid__title">Highest bid</div>
+                                                    <div class="highest__bid__eth">0.001 ETH</div>
+                                                </div>
+                                                <div class="new__bid">New bid 🔥</div>
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                    <div class="frame__card">
+                                        <div class="frame__card__img" id="card__img7">
+                                        </div>
+                                        <div class="frame__card__info">
+                                            <div class="card__info__title__price">
+                                                <div class="title__price__text">Amazing digital art</div>
+                                                <div class="bid__text">2.45 ETH</div>
+                                            </div>
+                                            <div class="owener__creators">
+                                                <div class="oweners__avatars">
+                                                    <div>
+                                                        <img class="icon__img" id="owener__avatar1"
+                                                            src="../static/img/austin_wade_avatar.png" alt="avatar" />
+                                                    </div>
+                                                    <div>
+                                                        <img class="icon__img" id="owener__avatar2"
+                                                            src="../static/img/austin_wade_avatar.png" alt="avatar" />
+                                                    </div>
+                                                    <div>
+                                                        <img class="icon__img" id="owener__avatar3"
+                                                            src="../static/img/austin_wade_avatar.png" alt="avatar" />
+                                                    </div>
+                                                </div>
+                                                <div class="owener__creators__text">3 in stock</div>
+                                            </div>
+                                            <div class="divider"></div>
+                                            <div class="card__bid">
+                                                <div class="highest__bid">
+                                                    <div class="highest__bid__icon"><img
+                                                            src="../static/img/icon__condlesticks.png" alt="condlesticks"></div>
+                                                    <div class="highest__bid__title">Highest bid</div>
+                                                    <div class="highest__bid__eth">0.001 ETH</div>
+                                                </div>
+                                                <div class="new__bid">New bid 🔥</div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="frame__row">
+                                    <div class="frame__card">
+                                        <div class="frame__card__img" id="card__img1">
+                                        </div>
+                                        <div class="frame__card__info">
+                                            <div class="card__info__title__price">
+                                                <div class="title__price__text">Amazing digital art</div>
+                                                <div class="bid__text">2.45 ETH</div>
+                                            </div>
+                                            <div class="owener__creators">
+                                                <div class="oweners__avatars">
+                                                    <div>
+                                                        <img class="icon__img" id="owener__avatar1"
+                                                            src="../static/img/austin_wade_avatar.png" alt="avatar" />
+                                                    </div>
+                                                    <div>
+                                                        <img class="icon__img" id="owener__avatar2"
+                                                            src="../static/img/austin_wade_avatar.png" alt="avatar" />
+                                                    </div>
+                                                    <div>
+                                                        <img class="icon__img" id="owener__avatar3"
+                                                            src="../static/img/austin_wade_avatar.png" alt="avatar" />
+                                                    </div>
+                                                </div>
+                                                <div class="owener__creators__text">3 in stock</div>
+                                            </div>
+                                            <div class="divider"></div>
+                                            <div class="card__bid">
+                                                <div class="highest__bid">
+                                                    <div class="highest__bid__icon"><img
+                                                            src="../static/img/icon__condlesticks.png" alt="condlesticks"></div>
+                                                    <div class="highest__bid__title">Highest bid</div>
+                                                    <div class="highest__bid__eth">0.001 ETH</div>
+                                                </div>
+                                                <div class="new__bid">New bid 🔥</div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="frame__card">
+                                        <div class="frame__card__img" id="card__img8">
+                                        </div>
+                                        <div class="frame__card__info">
+                                            <div class="card__info__title__price">
+                                                <div class="title__price__text">Amazing digital art</div>
+                                                <div class="bid__text">2.45 ETH</div>
+                                            </div>
+                                            <div class="owener__creators">
+                                                <div class="oweners__avatars">
+                                                    <div>
+                                                        <img class="icon__img" id="owener__avatar1"
+                                                            src="../static/img/austin_wade_avatar.png" alt="avatar" />
+                                                    </div>
+                                                    <div>
+                                                        <img class="icon__img" id="owener__avatar2"
+                                                            src="../static/img/austin_wade_avatar.png" alt="avatar" />
+                                                    </div>
+                                                    <div>
+                                                        <img class="icon__img" id="owener__avatar3"
+                                                            src="../static/img/austin_wade_avatar.png" alt="avatar" />
+                                                    </div>
+                                                </div>
+                                                <div class="owener__creators__text">3 in stock</div>
+                                            </div>
+                                            <div class="divider"></div>
+                                            <div class="card__bid">
+                                                <div class="highest__bid">
+                                                    <div class="highest__bid__icon"><img
+                                                            src="../static/img/icon__condlesticks.png" alt="condlesticks"></div>
+                                                    <div class="highest__bid__title">Highest bid</div>
+                                                    <div class="highest__bid__eth">0.001 ETH</div>
+                                                </div>
+                                                <div class="new__bid">New bid 🔥</div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="frame__card">
+                                        <div class="frame__card__img" id="card__img4">
+                                        </div>
+                                        <div class="frame__card__info">
+                                            <div class="card__info__title__price">
+                                                <div class="title__price__text">Amazing digital art</div>
+                                                <div class="bid__text">2.45 ETH</div>
+                                            </div>
+                                            <div class="owener__creators">
+                                                <div class="oweners__avatars">
+                                                    <div>
+                                                        <img class="icon__img" id="owener__avatar1"
+                                                            src="../static/img/austin_wade_avatar.png" alt="avatar" />
+                                                    </div>
+                                                    <div>
+                                                        <img class="icon__img" id="owener__avatar2"
+                                                            src="../static/img/austin_wade_avatar.png" alt="avatar" />
+                                                    </div>
+                                                    <div>
+                                                        <img class="icon__img" id="owener__avatar3"
+                                                            src="../static/img/austin_wade_avatar.png" alt="avatar" />
+                                                    </div>
+                                                </div>
+                                                <div class="owener__creators__text">3 in stock</div>
+                                            </div>
+                                            <div class="divider"></div>
+                                            <div class="card__bid">
+                                                <div class="highest__bid">
+                                                    <div class="highest__bid__icon"><img
+                                                            src="../static/img/icon__condlesticks.png" alt="condlesticks"></div>
+                                                    <div class="highest__bid__title">Highest bid</div>
+                                                    <div class="highest__bid__eth">0.001 ETH</div>
+                                                </div>
+                                                <div class="new__bid">New bid 🔥</div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="frame__card">
+                                        <div class="frame__card__img" id="card__img6">
+                                        </div>
+                                        <div class="frame__card__info">
+                                            <div class="card__info__title__price">
+                                                <div class="title__price__text">Amazing digital art</div>
+                                                <div class="bid__text">2.45 ETH</div>
+                                            </div>
+                                            <div class="owener__creators">
+                                                <div class="oweners__avatars">
+                                                    <div>
+                                                        <img class="icon__img" id="owener__avatar1"
+                                                            src="../static/img/austin_wade_avatar.png" alt="avatar" />
+                                                    </div>
+                                                    <div>
+                                                        <img class="icon__img" id="owener__avatar2"
+                                                            src="../static/img/austin_wade_avatar.png" alt="avatar" />
+                                                    </div>
+                                                    <div>
+                                                        <img class="icon__img" id="owener__avatar3"
+                                                            src="../static/img/austin_wade_avatar.png" alt="avatar" />
+                                                    </div>
+                                                </div>
+                                                <div class="owener__creators__text">3 in stock</div>
+                                            </div>
+                                            <div class="divider"></div>
+                                            <div class="card__bid">
+                                                <div class="highest__bid">
+                                                    <div class="highest__bid__icon"><img
+                                                            src="../static/img/icon__condlesticks.png" alt="condlesticks"></div>
+                                                    <div class="highest__bid__title">Highest bid</div>
+                                                    <div class="highest__bid__eth">0.001 ETH</div>
+                                                </div>
+                                                <div class="new__bid">New bid 🔥</div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="frame__button button"><a id="load" href="#">Load more</a><img src="../static/img/icon__loading.svg" alt="loading"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="stacks">
+                <div class="container">
+                    <div class="stacks__row">
+                        <div class="stacks__row__content flex__column__start">
+                            <div class="row__content__text flex__column__start">
+                                <div class="row__content__text__title flex__column__start">
+                                    <div class="content__text__title__first">Save your time with Stacks</div>
+                                    <div class="content__text__title">Earn free crypto with Crypter</div>
+                                </div>
+                                <div class="row__content__text2">A creative agency that lead and inspire</div>
+                            </div>
+                            <div class="row__content__buttons">
+                                <div><a class="button" id="earn" href="#">Earn now</a></div>
+                                <div>
+                                    <a class="button" id="discover" href="#">Discover more</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="stacks__row__img"><img src="../static/img/picture__cubes.PNG" alt="cubes"></div>
+                    </div>
+                </div>
+            </div>
+            <footer>
+                <div class="container">
+                    <div class="footer__row">
+                        <div class="footer__content">
+                            <div class="content__logo__info">
+                                <div class="content__logo logo">
+                                    <div class="symbol">
+                                        <img src="../static/img/logo.png" alt="logo" />
+                                    </div>
+                                    <div class="logo__titile">crypter</div>
+                                </div>
+                                <div class="content__logo__text">The New Creative <br>Economy.</div>
+                            </div>
+                            <div class="content__links">
+                                <div class="content__links__title">Crypter.</div>
+                                <div class="content__links__items">
+                                    <div><a href="#" class="link__item">Discover</a></div>
+                                    <div><a href="#" class="link__item">Connect wallet</a></div>
+                                    <div><a href="#" class="link__item">Create item</a></div>
+                                </div>
+                            </div>
+                            <div class="content__links">
+                                <div class="content__links__title">Info</div>
+                                <div class="content__links__items">
+                                    <div><a href="#" class="link__item">Download</a></div>
+                                    <div><a href="#" class="link__item">Demos</a></div>
+                                    <div><a href="#" class="link__item">Support</a></div>
+                                </div>
+                            </div>
+                            <div class="join__email">
+                                <div class="join__email__title">Join Newsletter</div>
+                                <div class="join__email__enter">
+                                    <div class="join__email__enter__title">Subscribe our newsletter to get more free
+                                        design course and resource</div>
+                                    <div class="join__email__enter__field">
+                                        <input type="text" class="search__footer" placeholder="Enter your email" />
+                                        <div class="search__icon">
+                                            <img src="../static/img/icon__arrow__white__right.svg" alt="search" />
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="divider"></div>
+                        <div class="footer__bottom__bar">
+                            <div class="copyright">Copyright © 2021 UI8 LLC. All rights reserved</div>
+                            <div class="cookies">
+                                <div class="cookies__text">We use cookies for better service.</div>
+                                <div><a class="cookies__accept" href="#">Accept</a></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </footer>
+        </div>
+    </div>
+</body>
+
+</html>
